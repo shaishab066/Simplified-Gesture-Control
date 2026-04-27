@@ -46,6 +46,8 @@ set_property PACKAGE_PIN V12 [get_ports {led[14]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {led[14]}]
 set_property PACKAGE_PIN V11 [get_ports {led[15]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {led[15]}]
+set_property PACKAGE_PIN H4 [get_ports led0_pwm]
+set_property IOSTANDARD LVCMOS33 [get_ports led0_pwm]
 
 set_property PACKAGE_PIN D4  [get_ports uart_txd]
 set_property IOSTANDARD LVCMOS33 [get_ports uart_txd]
